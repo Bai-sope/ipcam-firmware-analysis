@@ -1,0 +1,37 @@
+# 固件文件（体积大，且有版权问题，不提交）
+*.bin
+*.img
+*.trx
+*.chk
+firmware/
+
+# binwalk 解包产物
+_*.extracted/
+*.squashfs
+squashfs-root/
+
+# FirmAE 运行产物
+FirmAE/scratch/
+FirmAE/*.log
+
+# 截图（按需提交，避免泄露型号）
+images/*.jpg
+images/*.jpeg
+images/*.png
+!images/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 报告草稿
+draft/
+*.tmp
+*.bak
+
+# IDE
+.idea/
+.vscode/
